@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CineWissen</title>
+</head>
+
+<body>
+    <!-- NAV BAŞLANGIÇ -->
+    <div>
+        <nav>
+            <div class="logoDiv">
+                CİNEWİSSEN
+            </div>
+            <div class="salonlar">
+                <div class="salon">SALON1</div>
+                <div class="salon">SALON2</div>
+                <div class="salon">SALON3</div>
+                <div class="salon">SALON4</div>
+                <div class="salon">SALON5</div>
+            </div>
+            <div class="searchDiv">
+                <input id="search" type="text" placeholder="Arama..">
+                <button id="searchBtn">ARA</button>
+            </div>
+        </nav>
+    </div>
+    <!-- NAV BİTİŞ -->
+
+    <!-- SLİDER BAŞLANGIÇ -->
+    <div class="slider">
+        <div class="sliders">
+            <img class="photo" src="Pictures/SpidermanSlide.jpg" alt="">
+            <img class="photo" src="Pictures/AykutEnisteSlider.jpg" alt="">
+            <img class="photo" src="https://www.picsum.photos/id/112/800/500" alt="">
+            <img class="photo" src="https://www.picsum.photos/id/113/800/500" alt="">
+            <img class="photo" src="https://www.picsum.photos/id/114/800/500" alt="">
+            <img class="photo" src="https://www.picsum.photos/id/115/800/500" alt="">
+            <img class="photo" src="https://www.picsum.photos/id/116/800/500" alt="">
+            <img class="photo" src="https://www.picsum.photos/id/117/800/500" alt="">
+            <img class="photo" src="https://www.picsum.photos/id/118/800/500" alt="">
+            <img class="photo" src="https://www.picsum.photos/id/119/800/500" alt="">
+            <a><i id="geri" class="fa-solid fa-arrow-left"></i></a>
+            <a><i id="ileri" class="fa-solid fa-arrow-right"></i></a>
+            <div class="butonlar">
+                <button class="activePhoto b-red"></button>
+                <button class="activePhoto b-red"></button>
+                <button class="activePhoto b-red"></button>
+                <button class="activePhoto b-red"></button>
+                <button class="activePhoto b-red"></button>
+                <button class="activePhoto b-red"></button>
+                <button class="activePhoto b-red"></button>
+                <button class="activePhoto b-red"></button>
+                <button class="activePhoto b-red"></button>
+                <button class="activePhoto b-red"></button>
+            </div>
+        </div>
+    </div>
+    <!-- SLİDER BİTİŞ -->
+
+    <!-- CARDS BAŞLANGIÇ -->
+    <div class="cards">
+        <div class="top3-card">
+            <div id="card1" class="card">
+                <div class="cardTop">
+                    <img src="Pictures/SpidermanCard.jpg" alt="">
+                </div>
+                <div class="cardMiddle">
+                    Spiderman
+                </div>
+                <div class="cardBottom">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum libero mollitia quod rerum at optio
+                    tempora ipsam voluptatibus sit vel!
+                </div>
+            </div>
+            <div id="card2" class="card">
+                <div class="cardTop">
+                    <img src="Pictures/AykutEnisteCard.jpg" alt="">
+                </div>
+                <div class="cardMiddle">
+                    Aykut Enişte 2
+                </div>
+                <div class="cardBottom">Aykut Enişte, 24 Mayıs 2019 tarihinde vizyona giren, yönetmenliğini Onur
+                    Bilgetay'ın yaptığı, durum komedisi filmidir
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardTop">
+                    <img src="https://www.picsum.photos/id/112/400/200" alt="">
+                </div>
+                <div class="cardMiddle">
+                    Lorem, ipsum dolor.
+                </div>
+                <div class="cardBottom">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius est laboriosam ab consequatur maiores
+                    dicta quaerat soluta enim laudantium accusamus.
+                </div>
+            </div>
+        </div>
+        <div class="top3-card">
+            <div class="card">
+                <div class="cardTop">
+                    <img src="https://www.picsum.photos/id/113/400/200" alt="">
+                </div>
+                <div class="cardMiddle">Lorem, ipsum dolor.</div>
+                <div class="cardBottom">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem itaque obcaecati
+                    esse optio blanditiis ipsum, officia perferendis dolor facilis fuga.</div>
+            </div>
+            <div class="card">
+                <div class="cardTop">
+                    <img src="https://www.picsum.photos/id/114/400/200" alt="">
+                </div>
+                <div class="cardMiddle">Lorem, ipsum dolor.</div>
+                <div class="cardBottom">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem itaque obcaecati
+                    esse optio blanditiis ipsum, officia perferendis dolor facilis fuga.</div>
+            </div>
+            <div class="card">
+                <div class="cardTop">
+                    <img src="https://www.picsum.photos/id/115/400/200" alt="">
+                </div>
+                <div class="cardMiddle">Lorem, ipsum dolor.</div>
+                <div class="cardBottom">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem itaque obcaecati
+                    esse optio blanditiis ipsum, officia perferendis dolor facilis fuga.</div>
+            </div>
+        </div>
+        <div class="top3-card">
+            <div class="card">
+                <div class="cardTop">
+                    <img src="https://www.picsum.photos/id/116/400/200" alt="">
+                </div>
+                <div class="cardMiddle">Lorem, ipsum dolor.</div>
+                <div class="cardBottom">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem itaque obcaecati
+                    esse optio blanditiis ipsum, officia perferendis dolor facilis fuga.</div>
+            </div>
+            <div class="card">
+                <div class="cardTop">
+                    <img src="https://www.picsum.photos/id/117/400/200" alt="">
+                </div>
+                <div class="cardMiddle">Lorem, ipsum dolor.</div>
+                <div class="cardBottom">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem itaque obcaecati
+                    esse optio blanditiis ipsum, officia perferendis dolor facilis fuga.</div>
+            </div>
+            <div class="card">
+                <div class="cardTop">
+                    <img src="https://www.picsum.photos/id/118/400/200" alt="">
+                </div>
+                <div class="cardMiddle">Lorem, ipsum dolor.</div>
+                <div class="cardBottom">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem itaque obcaecati
+                    esse optio blanditiis ipsum, officia perferendis dolor facilis fuga.</div>
+            </div>
+        </div>
+        <div class="top3-card">
+            <div class="card">
+                <div class="cardTop">
+                    <img src="https://www.picsum.photos/id/119/400/200" alt="">
+                </div>
+                <div class="cardMiddle">Lorem, ipsum dolor.</div>
+                <div class="cardBottom">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem itaque obcaecati
+                    esse optio blanditiis ipsum, officia perferendis dolor facilis fuga.</div>
+            </div>
+        </div>
+    </div>
+    <!-- CARDS BİTİŞ -->
+    <div class="main-popup d-none">
+        <div class="popup">
+            <div class="close-popup">X</div>
+            <div class="detailsDiv ">
+                <div class="detailsDiv-title">İçerik</div>
+                <div class="d-flex">
+                    <div class="about1"></div>
+                    <div class="about2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div><a href="">COPYRİGHT</a></div>
+        <div><a href="">DESTEK</a></div>
+        <div><a href="">KULLANIM KOŞULLARI</a></div>
+        <div><a href="">KVKK</a></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
